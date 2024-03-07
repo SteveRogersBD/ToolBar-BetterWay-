@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyToolBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyToolBar" parent="Base.Theme.MyToolBar" />
+
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Color for menu item text -->
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <!-- Color for the overflow menu icon -->
+        <item name="actionOverflowButtonStyle">@style/OverflowMenuButtonStyle</item>
+    </style>
+
+    <!-- Style for the overflow menu icon -->
+    <style name="OverflowMenuButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+</resources>
